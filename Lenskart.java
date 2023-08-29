@@ -1,17 +1,14 @@
 class Lenskart {
 	
+	 int lenskartId;
+	 String spectaclesType ;
+	 String color;
+	 int price;
+	 int weightInGrams;
+	 int frameSizeInmm ;
 	
-int glassId ;
-String  typeOfGlasses ;
-String colorOfGlass;
-String shapesOfTheGlass;
-int price ;
-String frameSize ;
-
-	 
-	public  static void  opticalPrescriptionEyewear (){
-		System.out.println("To transform the way people see and experience the world");
-	
+	public static void provideVision() {
+		System.out.println("providing easy access to eyewear");
 	}
 
 

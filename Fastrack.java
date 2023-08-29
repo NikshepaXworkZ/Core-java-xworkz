@@ -1,5 +1,6 @@
 class Fastrack {
-    int fastrackId;
+	
+     int fastrackId;
 	 String displayType;
 	 int diaInmm;
 	 int price;

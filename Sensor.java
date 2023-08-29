@@ -1,11 +1,12 @@
 class Sensor{
-      String type ;
-      String mount ;
-	  String range;
-      int cost ;
-      String temp;
-
-     public void details(){
-		 System.out.println("The details are ");
-	 }	  
+	 int sensorId;
+	 String sensorType ;
+	 String battery;
+	 int productPrice;
+	 String brand;
+	 int dimensionInmm ;
+	
+	public static void provideDetection() {
+		System.out.println("it senses or detects a physcical phenomenon");
+	}
 }
