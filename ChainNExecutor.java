@@ -2,8 +2,11 @@ class ChainNExecutor {
 
 	public static void main(String[] args) {
 	
-ChainN chainN=new ChainN();
-chainN.chainNId=1;
+ChainN chainN=new ChainN(1,"diamond",10,60000,"necklace","paarty wear");
+chainN.provideStyle();
+System.out.println("\n");
+
+/*chainN.chainNId=1;
 chainN.type="diamond";
 chainN.weightInGrams=10;
 chainN.price=600000;
@@ -16,10 +19,12 @@ System.out.println("chainN type is "+chainN.type);
 System.out.println("chainN weight In Grams is "+chainN.weightInGrams);
 System.out.println("chainN price is "+chainN.price); 
 System.out.println("chainN design is "+chainN.design); 
-System.out.println("chainN occasions is "+chainN.occasion); 
+System.out.println("chainN occasions is "+chainN.occasion); */
 
-ChainN chainN1=new ChainN();
-chainN1.chainNId=2;
+ChainN chainN1=new ChainN(2,"gold",13,765410,"curlies","daily wear");
+chainN1.provideStyle();
+System.out.println("\n");
+/*chainN1.chainNId=2;
 chainN1.type="gold ";
 chainN1.weightInGrams=13;
 chainN1.price=76410;
@@ -32,10 +37,12 @@ System.out.println("chainN type is "+chainN1.type);
 System.out.println("chainN weight In Grams is "+chainN1.weightInGrams);
 System.out.println("chainN price is "+chainN1.price); 
 System.out.println("chainN design is "+chainN1.design); 
-System.out.println("chainN occasions is "+chainN1.occasion); 
+System.out.println("chainN occasions is "+chainN1.occasion);*/ 
 
-ChainN chainN2=new ChainN();
-chainN2.chainNId=3;
+ChainN chainN2=new ChainN(3,"silver",15,2500,"named necklace","daily use");
+chainN2.provideStyle();
+System.out.println("\n");
+/*chainN2.chainNId=3;
 chainN2.type="Silver";
 chainN2.weightInGrams=15;
 chainN2.price=2500;
@@ -48,10 +55,12 @@ System.out.println("chainN type is "+chainN2.type);
 System.out.println("chainN weight In Grams is "+chainN2.weightInGrams);
 System.out.println("chainN price is "+chainN2.price); 
 System.out.println("chainN design is "+chainN2.design); 
-System.out.println("chainN occasions is "+chainN2.occasion); 
+System.out.println("chainN occasions is "+chainN2.occasion); */
 
-ChainN chainN3=new ChainN();
-chainN3.chainNId=4;
+ChainN chainN3=new ChainN(4,"gold",55,205522,"floral","festival wear");
+chainN3.provideStyle();
+System.out.println("\n");
+/*chainN3.chainNId=4;
 chainN3.type="gold";
 chainN3.weightInGrams=55;
 chainN3.price=205522;
@@ -64,10 +73,12 @@ System.out.println("chainN type is "+chainN3.type);
 System.out.println("chainN weight In Grams is "+chainN3.weightInGrams);
 System.out.println("chainN price is "+chainN3.price); 
 System.out.println("chainN design is "+chainN3.design); 
-System.out.println("chainN occasions is "+chainN3.occasion); 
+System.out.println("chainN occasions is "+chainN3.occasion); */
 
-ChainN chainN4=new ChainN();
-chainN4.chainNId=5;
+ChainN chainN4=new ChainN(5,"diamond",36,636534,"necklace","party wear");
+chainN4.provideStyle();
+System.out.println("\n");
+/*chainN4.chainNId=5;
 chainN4.type="diamond ";
 chainN4.weightInGrams=36;
 chainN4.price=636534;
@@ -80,6 +91,6 @@ System.out.println("chainN type is "+chainN4.type);
 System.out.println("chainN weight In Grams is "+chainN4.weightInGrams);
 System.out.println("chainN price is "+chainN4.price); 
 System.out.println("chainN design is "+chainN4.design); 
-System.out.println("chainN occasions is "+chainN4.occasion); 
+System.out.println("chainN occasions is "+chainN4.occasion); */
 	}
 }
