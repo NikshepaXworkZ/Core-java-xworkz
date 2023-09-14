@@ -1,18 +1,20 @@
 class InteriorExecutor{
-	public static void main(String materials[]){
-		Interior interior=new Interior();
-		interior.addMaterialName("Cement");
-		interior.addMaterialName("Sand");
-		interior.addMaterialName("Tiles");
-		interior.addMaterialName("Iron");
-		interior.addMaterialName("Steel");
-		interior.addMaterialName("Glass");
-		interior.addMaterialName("Play Wood");
-		interior.addMaterialName("Latch");
-		interior.addMaterialName("Handles");
-		interior.addMaterialName("PVC pipe");
-		interior.addMaterialName("Bricks");
-		
-		interior.getMaterials();
-	}
+
+public static void main(String song[]){
+
+Interior materialName = new Interior();
+materialName.addMaterialName("teak Wood");
+materialName.addMaterialName("Glass");
+materialName.addMaterialName("polishing oil");
+materialName.addMaterialName("ceiling design");
+materialName.addMaterialName("fans,light");
+materialName.addMaterialName("screens");
+materialName.addMaterialName("cupboards");
+materialName.addMaterialName("show-case designing with wood");
+materialName.addMaterialName("providing necessary window styles");
+materialName.addMaterialName("screens");
+materialName.addMaterialName("flooring");
+
+materialName.getMaterialNames();
+}
 }

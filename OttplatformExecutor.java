@@ -1,15 +1,14 @@
 class OttplatformExecutor{
- 
- public static void main(String ott[]){
- 
- OttPlatform ottplatform=new OttPlatform();
- ottplatform.addMovieName("KGF");
- ottplatform.addMovieName("MAKHI");
- ottplatform.addMovieName("APPU");
- ottplatform.addMovieName("ADDHURI");
 
-ottplatform.getMovieNames();
+public static void main(String ott[]){
+
+OttPlatform platform = new OttPlatform();
+platform.addMovieName("appu");
+platform.addMovieName("abhi");
+platform.addMovieName("ram");
+platform.addMovieName("gandhadagudi");
+platform.addMovieName("abhi");
+platform.addMovieName("power");
+platform.getMovieNames();
 }
 }
- 
- 

@@ -1,18 +1,18 @@
 class SpotifyExecutor{
-	public static void main(String songs[]){
-		Spotify spotify=new Spotify();
-		spotify.addSongs("Arala Mallige");
-		spotify.addSongs("Ra Ra Rakkamma");
-		spotify.addSongs("Exam Song");
-		spotify.addSongs("Minchagi Neenu");
-		spotify.addSongs("Belakina Kavithe");
-		spotify.addSongs("Singara Siriye");
-		spotify.addSongs("Ondu Malebillu");
-		spotify.addSongs("Eradu Jadeyannu");
-		spotify.addSongs("Cheluve Ondu Kelthini");
-		spotify.addSongs("Yenammi Yenammi");
-		spotify.addSongs("Nannavale Nannavale");
-		
-		spotify.getSongNames();
+	public static void main(String song[]){
+		Spotify songName=new Spotify();
+		songName.addSongName("Despacito");
+		songName.addSongName("Minchagi ninu baralu");
+		songName.addSongName("adiga adiga");
+		songName.addSongName("alemaariye");
+		songName.addSongName("Blue eyes");
+		songName.addSongName("so baby");
+		songName.addSongName("ishq wala");
+		songName.addSongName("yare ni devatheya");
+		songName.addSongName("zara zara");
+		songName.addSongName("Yaro kannali ");
+		songName.addSongName("zara zara");
+		songName.addSongName("banina haniyu");
+		songName.getSongNames();
 	}
 }
